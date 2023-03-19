@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "DrawPi"
+version = "0.1.0"
+description = "Find pi by drawing circles"
+authors = ["JonLiuFYI <2997583+JonLiuFYI@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyxel = "^1.6.9"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+pytest = "^6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
